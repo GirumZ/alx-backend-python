@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """ A module that defines an async coroutine that runs multiple coroutines"""
 import asyncio
-
+from typing import List
 
 wait_random = __import__('0-basic_async_syntax').wait_random
 
 
-async def wait_n(n: int, max_delay: int) -> list[float]:
+async def wait_n(n: int, max_delay: int) -> List[float]:
     """
     A function that runs tha wait_delay function n times using async
     Args:
