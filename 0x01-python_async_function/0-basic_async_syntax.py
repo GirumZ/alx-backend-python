@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """ A module that defines an async function called wait_random"""
 import asyncio
 import random
